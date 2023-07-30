@@ -1,0 +1,280 @@
+
+body{
+    background-color: white;
+}
+
+
+    #headerg{
+	
+	height: 90px;
+	width: 1800px;
+	background-color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: large;
+	}
+	.menu{
+		
+		height: 50px;
+		width: 1400px;
+		background-color: rgb(44, 80, 240);
+		margin-top: -60px;
+		margin-left: 200px;
+		
+		}
+		
+/* CSS Document */
+
+
+body {
+	background-color: #ffffff;
+
+/* for pull-down menu to work in IE6*/
+behavior:url("csshover2.htc");
+
+}
+
+/* pull-down mainmenu css */
+.mainmenu{
+	float: left;
+	width: 100%;
+	padding: 0;
+}
+.mainmenu ul {
+	float: left;
+	width: 100%;
+	list-style: none;
+	line-height: 1;
+	color:#f5efef;
+	
+	padding: 0;
+	border: solid #f5f1f1;
+	border-width: 1px 0;
+	margin: 0 0 1em 0;
+}
+
+.mainmenu a, .mainmenu a:visited {
+	display: block;
+font-family:Arial, Helvetica, sans-serif;font-size:0.8em;font-weight:bold;font-style:normal;text-decoration:underline;
+	color: #faf8f8;
+	text-decoration: none;
+	padding: 1em 1em;
+}
+.mainmenu ul ul a{
+	width:100%;
+	height:100%;
+}
+.mainmenu ul a{
+	width:1%;
+}
+
+
+.mainmenu li  {
+	float: left;
+	margin:0;
+	padding:0;
+}
+
+.mainmenu ul li {float:left; position:relative;  }
+.mainmenu ul li a {white-space:nowrap;}
+	
+.mainmenu li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width:15em;	
+	
+	background: #00FF00;
+	font-weight: normal;
+	border-width: 1px;
+	margin: 0;
+}
+
+.mainmenu li li {
+	width:15em ;
+}
+
+.mainmenu li li a{
+	width:13em ;
+}
+
+.mainmenu li ul  {
+	margin: 0;
+}
+.mainmenu li ul ul {
+	margin: -2.8em 0 0 13.5em;
+}
+.ul_ch, 
+.mainmenu li:hover ul ul,
+.mainmenu li li:hover ul ul,
+.mainmenu li li li:hover ul ul,
+.mainmenu li li li li:hover ul ul,
+.mainmenu li li li li li:hover ul ul
+{
+	left: -999em;
+}
+.mainmenu li:hover ul,
+.mainmenu li li:hover ul,
+.mainmenu li li li:hover ul,
+.mainmenu li li li li:hover ul,
+.mainmenu li li li li li:hover ul
+{
+	left: auto;
+}
+.mainmenu li:hover>ul.ul_ch   
+{
+	left: auto;
+}
+
+.mainmenu li:hover{
+	background: #FF0000;
+}
+
+.mainmenu li:hover a,.mainmenu li:hover a:visited,.mainmenu li:hover a:hover,.mainmenu li a:hover{
+	color:#FFFFFF;
+}
+.mainmenu li:hover li a, .mainmenu li li:hover li a, 
+.mainmenu li li li:hover li a, .mainmenu li li li li:hover li a,
+.mainmenu li:hover li a:visited, .mainmenu li li:hover li a:visited, 
+.mainmenu li li li:hover li a:visited, .mainmenu li li li li:hover li a:visited
+{
+	color:#FFFFFF;
+}
+.mainmenu li li:hover, .mainmenu li li li:hover, 
+.mainmenu li li li li:hover , .mainmenu li li li li li:hover , .mainmenu li li li li li li:hover 
+{
+	background: #B90000;
+	z-index:9999;
+}
+.mainmenu li li:hover a,.mainmenu li li li:hover a, 
+.mainmenu li li li li:hover a, .mainmenu li li li li li:hover a
+{
+	color: #FFFFFF; 
+}
+
+.mainmenu ul ul a, .mainmenu ul ul a:visited,
+.mainmenu li li a, .mainmenu li li a:visited
+{
+	color: #FFFFFF;
+}
+.mainmenu ul ul a:hover,
+.mainmenu li:hover li:hover a,.mainmenu li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a:visited{
+	color: #FFFFFF;
+}
+.mainmenu li:hover li:hover li a,.mainmenu li:hover li:hover li a:visited ,
+.mainmenu li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li:hover li a:visited{
+	color: #FFFFFF;
+}
+
+
+/* end of mainmenu css */
+.meno{
+		
+	height: 200px;
+	width: 1405px;
+	background-color: rgb(90, 97, 93);
+		}
+		.bo{
+		
+			height: 300px;
+			width: 400px;
+			background-color: white;
+			margin-left: 120px;
+			margin-top: 100px;
+				}
+		.bos{
+		
+		height: 200px;
+		width: 500px;
+		background-color: white;
+		margin-left: 600px;
+		margin-top: -280px;
+		  }
+		  .bose{
+		
+			height: 300px;
+			width: 400px;
+			background-color: rgb(247, 244, 244);
+			margin-left:100px;
+			margin-top: 100px;
+			
+			  }
+			  .ho{
+				
+				height: 300px;
+				width: 400px;
+				background-color: rgb(243, 241, 241);
+				margin-left: 600px;
+				margin-top: -300px;
+			
+				  }
+		#CORPS{
+		
+			height: 700px;
+			width: 1405px;
+			background-color: rgb(240, 245, 242);
+			
+			color: #ffffff;
+				}
+			#CORPt{
+			height: 300px;
+			width: 1405px;
+			background-color: rgb(90, 97, 93);
+			font-size: xx-large;
+			font-family: Arial, Helvetica, sans-serif;
+			text-align: center;		
+			}
+				#footer{
+					border: 1PX SOLID white;
+					width: 1800px;
+					height: 100px;
+					background-color: rgb(16, 20, 255);
+					color: white;
+					font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+					
+					
+				 }
+				
+				 
+				 
+				 #CORP{
+		
+					height: 890px;
+					width: 1405px;
+					background-color: white;
+								}
+					#COR{
+		
+				height: 200px;
+				width: 400px;
+				background-color: rgb(223, 219, 220);
+				font-size: xx-large;
+				color: #ffffff;
+				font-family: Arial, Helvetica, sans-serif;
+			                        text-align: center;
+				 margin-left: 300px;	
+				 margin-top: -60px;	
+				}
+				#CORy{
+		
+					height: 400px;
+					width: 900px;
+					background-color: rgb(245, 243, 243);
+					
+					 margin-left: 300px;	
+					 margin-top: -80px;	
+					}
+				#CORPq{
+					height: 300px;
+					width: 1405px;
+					background-image: url(j.jpeg);
+					font-size: xx-large;
+					font-family: Arial, Helvetica, sans-serif;
+					text-align: center;
+					color: white;		
+					}
